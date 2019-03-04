@@ -1,0 +1,43 @@
+{
+  "name": "angularjs-scaffold",
+  "version": "1.0.0",
+  "description": "A base angularjs project that can be used for rapid prototyping or as the seed for your next angularjs app. The project uses Webpack as its primary build tool, Jest + Jasmine as the test runner and framework, along with Typescript and SASS support.",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --port=4200"
+  },
+  "author": "jesse-y",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.7.7",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.6.54",
+    "@types/angular-mocks": "^1.7.0",
+    "@types/jasmine": "^3.3.9",
+    "@types/jest": "^24.0.9",
+    "@types/jquery": "^3.3.29",
+    "@types/lodash": "^4.14.121",
+    "@types/node": "^11.10.4",
+    "angular-mocks": "^1.7.7",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.1.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "raw-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-jest": "^24.0.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.13.1",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
